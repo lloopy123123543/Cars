@@ -299,13 +299,13 @@ export default function Cars() {
                   {models.name}
                   </th>
                   <td class="px-6 py-4">
-                      {COLOR.current}
+                      {models.color}
                   </td>
                   <td class="px-6 py-4">
-                  {FORMAT.current}
+                  {models.format}
                   </td>
                   <td class="px-6 py-4">
-                      {COST.current}
+                      {models.cost}
                   </td>
               </tr>
         ))}
